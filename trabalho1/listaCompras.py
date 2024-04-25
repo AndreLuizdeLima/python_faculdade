@@ -34,7 +34,7 @@ while i == 1:
         print('')
         null = input('')
     
-    if decisao == '14':
+    if decisao == '4':
         print('==== Saindo do programa ====')
         i+=1
         
