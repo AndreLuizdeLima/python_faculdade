@@ -6,9 +6,10 @@ usuarios = []
 
 while i == 1:
     print('Opcoes')
-    print('1: Novo usuario')
-    print('2: Listar usuario')
-    print('3: Sair do programa')
+    print('1: Novo usuario:')
+    print('2: Listar usuario:')
+    print('3: Editar Usuario:')
+    print('4: Sair do programa:')
     print('')
     decisao = int(input('Sua escolha: '))
     print('')
@@ -31,7 +32,7 @@ while i == 1:
         
 
     if decisao == 2:
-        k = 1
+        k = 0
         for j in usuarios:
             print(f'Usuario {k}')
             for key in j:
@@ -39,8 +40,16 @@ while i == 1:
             k+=1
             print('')    
             
-        
     if decisao == 3:
+        pesquisa = input('Informe o nome de qual usuario deseja editar:')
+        for l in usuarios:
+            if pesquisa == usuarios['cpf']:
+                usuarios['cpf'] = input('Informe novo Cpf: ')   
+        
+
+        
+        
+    if decisao == 4:
         i+=1
         
    
