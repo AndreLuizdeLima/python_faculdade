@@ -1,7 +1,7 @@
 listaCompra = [ 'laranja', 'maça', 'abacate', 'morango']
 
 print(listaCompra)
-
+    
 listaCompra.append('kiwi')
 
 print(listaCompra)
