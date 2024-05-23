@@ -6,12 +6,10 @@ tabuleiro = [
     [1,1,0]
 ]
 
+teste1 = 1
+teste2 = 2
+
 
 print(tabuleiro[1][2])
-
-
-for i in tabuleiro:
-    #print(i)
-    for a in i:
-        print(a)
+print(tabuleiro[teste1][teste2])
 
