@@ -4,8 +4,8 @@
 
 tab = [
     ['=','A','B','C'],    
-    ['1','Y','0','0'],    
-    ['2','Y','0','0'],    
+    ['1','0','0','0'],    
+    ['2','0','0','0'],    
     ['3','0','0','0']    
 ]
 
@@ -170,12 +170,3 @@ while condParada <= 1:
     insertTab(insertRown,insertColumns)
     printaTab()
     validaVencedor()
-
-
-
-
-
-
-
-    
-
